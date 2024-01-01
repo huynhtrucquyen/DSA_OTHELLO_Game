@@ -29,14 +29,13 @@ public class Rules extends JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setAutoRequestFocus(false);
 
-        jPanel1.setBackground(new java.awt.Color(233, 195, 187));
 
         titleJlabel.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        titleJlabel.setForeground(new java.awt.Color(55, 26, 22));
+        titleJlabel.setForeground(new java.awt.Color(172, 88, 101));
         titleJlabel.setText("OTHELLO RULES");
 
-        jButton1.setBackground(new java.awt.Color(233, 141, 158));
-        jButton1.setForeground(new java.awt.Color(193, 51, 70));
+        jButton1.setBackground(new java.awt.Color(255, 185, 185));
+        jButton1.setForeground(new java.awt.Color(172, 88, 101));
         jButton1.setText("OK");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -125,7 +124,7 @@ class drawRules extends JPanel {
         } catch (IOException ex) {
             System.out.println("error");
         }
-        g.setColor(new java.awt.Color(233, 195, 187));
+        g.setColor(new java.awt.Color(246, 211, 211));
         g.fillRect(1, 1, 1500, 1500);
         System.out.println(width);
         g.drawImage(image, 52, 55, 609, 590, null); // see javadoc for more info on the parameters

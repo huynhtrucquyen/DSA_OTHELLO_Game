@@ -56,14 +56,14 @@ public class PlayerNames extends JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(233, 195, 187));
+        jPanel1.setBackground(new java.awt.Color(246, 211, 211));
 
         player1Jlabel.setFont(new java.awt.Font("Tw Cen MT", 1, 24)); // NOI18N
-        player1Jlabel.setForeground(new java.awt.Color(193, 51, 70));
+        player1Jlabel.setForeground(new java.awt.Color(157, 102, 101));
         player1Jlabel.setText("Player 1");
 
         player2Jlabel.setFont(new java.awt.Font("Tw Cen MT", 1, 24)); // NOI18N
-        player2Jlabel.setForeground(new java.awt.Color(193, 51, 70));
+        player2Jlabel.setForeground(new java.awt.Color(157, 102, 101));
         player2Jlabel.setText("Player 2");
 
         //titleJlabel.setBackground(new java.awt.Color(202, 135, 126));
@@ -71,9 +71,9 @@ public class PlayerNames extends JFrame {
         titleJlabel.setForeground(new java.awt.Color(172, 88, 101));
         titleJlabel.setText("PLAYER NAMES");
 
-        name1JTextField.setBackground(new java.awt.Color(202, 135, 126));
+        name1JTextField.setBackground(new java.awt.Color(217, 158, 153));
         name1JTextField.setFont(new java.awt.Font("Tw Cen MT", 1, 20)); // NOI18N
-        name1JTextField.setForeground(new java.awt.Color(248, 209, 181));
+        name1JTextField.setForeground(new java.awt.Color(250, 218, 199));
         name1JTextField.setText("     Player 1");
         name1JTextField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,9 +93,9 @@ public class PlayerNames extends JFrame {
             }
         });
 
-        name2JTextField.setBackground(new java.awt.Color(202, 135, 126));
+        name2JTextField.setBackground(new java.awt.Color(217, 158, 153));
         name2JTextField.setFont(new java.awt.Font("Tw Cen MT", 1, 20)); // NOI18N
-        name2JTextField.setForeground(new java.awt.Color(248, 209, 181));
+        name2JTextField.setForeground(new java.awt.Color(250, 218, 199));
         name2JTextField.setText("     Player 2");
         name2JTextField.addFocusListener(new FocusListener() {
             @Override
@@ -110,9 +110,9 @@ public class PlayerNames extends JFrame {
             }
         });
 
-        saveJbutton.setBackground(new java.awt.Color(255, 169, 182));
+        saveJbutton.setBackground(new java.awt.Color(255, 185, 185));
         saveJbutton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        saveJbutton.setForeground(new java.awt.Color(193, 51, 70));
+        saveJbutton.setForeground(new java.awt.Color(172, 88, 101));
         saveJbutton.setText("SAVE");
         saveJbutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

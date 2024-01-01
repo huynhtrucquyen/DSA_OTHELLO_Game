@@ -40,11 +40,11 @@ public class Options extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(233, 195, 187));
+        jPanel1.setBackground(new java.awt.Color(246, 211, 211));
 
-        brownJButton.setBackground(new java.awt.Color(233, 141, 158));
+        brownJButton.setBackground(new java.awt.Color(255, 185, 185));
         brownJButton.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        brownJButton.setForeground(new java.awt.Color(193, 51, 70));
+        brownJButton.setForeground(new java.awt.Color(172, 88, 101));
         brownJButton.setText("Brown");
         brownJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -52,9 +52,9 @@ public class Options extends javax.swing.JFrame {
             }
         });
 
-        stoneJButton.setBackground(new java.awt.Color(233, 141, 158));
+        stoneJButton.setBackground(new java.awt.Color(255, 185, 185));
         stoneJButton.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        stoneJButton.setForeground(new java.awt.Color(193, 51, 70));
+        stoneJButton.setForeground(new java.awt.Color(172, 88, 101));
         stoneJButton.setText("Stone");
         stoneJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -62,9 +62,9 @@ public class Options extends javax.swing.JFrame {
             }
         });
 
-        greenJButton.setBackground(new java.awt.Color(233, 141, 158));
+        greenJButton.setBackground(new java.awt.Color(255, 185, 185));
         greenJButton.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        greenJButton.setForeground(new java.awt.Color(193, 51, 70));
+        greenJButton.setForeground(new java.awt.Color(172, 88, 101));
         greenJButton.setText("Green");
         greenJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -72,9 +72,9 @@ public class Options extends javax.swing.JFrame {
             }
         });
 
-        yellowJButton.setBackground(new java.awt.Color(233, 141, 158));
+        yellowJButton.setBackground(new java.awt.Color(255, 185, 185));
         yellowJButton.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        yellowJButton.setForeground(new java.awt.Color(193, 51, 70));
+        yellowJButton.setForeground(new java.awt.Color(172, 88, 101));
         yellowJButton.setText("Yellow");
         yellowJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

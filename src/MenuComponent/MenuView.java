@@ -49,15 +49,15 @@ public class MenuView extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(234, 228, 214, 255));
+        jPanel1.setBackground(new java.awt.Color(246, 211, 211));
 
         titleJLabel.setFont(new java.awt.Font("Snap ITC", 1, 55)); // NOI18N
-        titleJLabel.setForeground(new java.awt.Color(255, 204, 153));
+        titleJLabel.setForeground(new java.awt.Color(157, 102, 101));
         titleJLabel.setText("OTHELLO");
 
-        playervsplayerJButton.setBackground(new java.awt.Color(79, 69, 87));
+        playervsplayerJButton.setBackground(new java.awt.Color(252, 187, 187));
         playervsplayerJButton.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        playervsplayerJButton.setForeground(new java.awt.Color(255, 255, 255));
+        playervsplayerJButton.setForeground(new java.awt.Color(172, 88, 101));
         playervsplayerJButton.setText("Player vs Player");
         playervsplayerJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -66,9 +66,9 @@ public class MenuView extends javax.swing.JFrame {
             }
         });
 
-        playervspcJButton.setBackground(new java.awt.Color(79, 69, 87));
+        playervspcJButton.setBackground(new java.awt.Color(252, 187, 187));
         playervspcJButton.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        playervspcJButton.setForeground(new java.awt.Color(255, 255, 255));
+        playervspcJButton.setForeground(new java.awt.Color(172, 88, 101));
         playervspcJButton.setText("Player vs BOT");
         playervspcJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -76,9 +76,9 @@ public class MenuView extends javax.swing.JFrame {
             }
         });
 
-        optionsJButton.setBackground(new java.awt.Color(79, 69, 87));
+        optionsJButton.setBackground(new java.awt.Color(252, 187, 187));
         optionsJButton.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        optionsJButton.setForeground(new java.awt.Color(255, 255, 255));
+        optionsJButton.setForeground(new java.awt.Color(172, 88, 101));
         optionsJButton.setText("Options");
         optionsJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,9 +86,9 @@ public class MenuView extends javax.swing.JFrame {
             }
         });
 
-        guideJButton.setBackground(new java.awt.Color(79, 69, 87));
+        guideJButton.setBackground(new java.awt.Color(252, 187, 187));
         guideJButton.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        guideJButton.setForeground(new java.awt.Color(255, 255, 255));
+        guideJButton.setForeground(new java.awt.Color(172, 88, 101));
         guideJButton.setText("How to play?");
         guideJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
