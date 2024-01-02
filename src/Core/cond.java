@@ -1,3 +1,8 @@
+/* Team ID: 7
+Name: HUYNH TRUC QUYEN
+ID: ITDSIU19051
+*/
+
 package Core;
 
 public class cond {

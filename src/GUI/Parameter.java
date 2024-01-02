@@ -1,3 +1,8 @@
+/* Team ID: 7
+Name: HUYNH TRUC QUYEN
+ID: ITDSIU19051
+Description: Define parameter for GUI
+*/
 package GUI;
 
 public class Parameter {

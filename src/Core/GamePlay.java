@@ -1,10 +1,13 @@
+/* Team ID: 7
+Name: HUYNH TRUC QUYEN
+ID: ITDSIU19051
+Description: GamePlay class
+*/
 package Core;
 
 import GUI.*;
 
-
 import java.util.ArrayList;
-
 
 public class GamePlay {
     private final int row = Parameter.row;
@@ -18,7 +21,8 @@ public class GamePlay {
         int prev;
         if (player == 1)
             prev = 2;
-        else prev = 1;
+        else
+            prev = 1;
 
         for (int i = 0; i <= row + 1; i++)
             for (int j = 0; j <= column + 1; j++)
@@ -84,7 +88,7 @@ public class GamePlay {
                     arrPosibleMove.add(temp);
                 }
         }
-        //System.out.println("-------------------------------------");
+        // System.out.println("-------------------------------------");
         return posible;
     }
 
@@ -93,8 +97,10 @@ public class GamePlay {
 
         for (int i = 1; i <= row; i++)
             for (int j = 1; j <= column; j++) {
-                if (board[i][j] == 1) score.x++;
-                if (board[i][j] == 2) score.y++;
+                if (board[i][j] == 1)
+                    score.x++;
+                if (board[i][j] == 2)
+                    score.y++;
             }
         return score;
     }
@@ -112,12 +118,11 @@ public class GamePlay {
         return flag;
     }
 
-    public void flipChess(int[][] check, int player, int x, int y) { //{x,y} current position, player: previous player
+    public void flipChess(int[][] check, int player, int x, int y) { // {x,y} current position, player: previous player
 
         goFind(check, player, x - 1, y, -1, 0);
         goFind(check, player, x - 1, y - 1, -1, -1);
         goFind(check, player, x - 1, y + 1, -1, 1);
-
 
         goFind(check, player, x, y - 1, 0, -1);
         goFind(check, player, x, y + 1, 0, 1);
@@ -140,5 +145,3 @@ public class GamePlay {
         return new GamePlay();
     }
 }
-
-

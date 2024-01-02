@@ -1,3 +1,9 @@
+/* Team ID: 7
+Name: HUYNH TRUC QUYEN
+ID: ITDSIU19051
+Description: Render chessboard
+*/
+
 package GUI;
 
 import java.awt.*;
@@ -12,8 +18,8 @@ public class RenderBoard {
 
     private static RenderBoard instance = null;
 
-
-    private RenderBoard() {}
+    private RenderBoard() {
+    }
 
     public void paintBoard(Graphics g) {
 
@@ -29,7 +35,6 @@ public class RenderBoard {
         g.drawImage(imageBoard, Parameter.xStart, Parameter.yStart, Parameter.size, Parameter.size, null);
 
     }
-
 
     public static RenderBoard instance() {
         if (instance == null) {

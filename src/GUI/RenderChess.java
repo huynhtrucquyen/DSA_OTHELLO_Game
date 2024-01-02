@@ -1,3 +1,9 @@
+/* Team ID: 7
+Name: HUYNH TRUC QUYEN
+ID: ITDSIU19051
+Description: Render chess on board
+*/
+
 package GUI;
 
 import Core.Coordinate;

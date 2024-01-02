@@ -1,3 +1,9 @@
+/* Team ID: 7
+Name: HUYNH TRUC QUYEN
+ID: ITDSIU19051
+Description: Minimax algorithm with alpha-beta pruning
+*/
+
 package Core;
 
 import GUI.Parameter;

@@ -1,3 +1,8 @@
+/* Team ID: 7
+Name: HUYNH TRUC QUYEN
+ID: ITDSIU19051
+*/
+
 import Core.PlayervsBot;
 import Core.PlayerVsPlayer;
 import javax.sound.sampled.LineUnavailableException;
