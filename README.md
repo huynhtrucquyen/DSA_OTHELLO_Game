@@ -13,7 +13,7 @@ There are sixty-four identical game pieces called disks (often spelled "discs"),
 * IntelliJ preferably (optional).
 ## How to download
 ```bash
-git clone https://github.com/huynhtrucquyen/DSA_OTHELLO.git 
+git clone https://github.com/huynhtrucquyen/DSA_OTHELLO_Game.git
 ```
 ## Run
 Navigate to the repository folder. Click on DSA-OTHELLO-game.jar.
